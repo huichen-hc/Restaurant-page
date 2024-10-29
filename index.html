@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Page</title>
+<script defer src="main.js"></script></head>
+
+<body>
+    <header>
+        <h1>Trattoria da Vinci</h1>
+        <nav>
+            <ul>
+                <li>
+                    <button id="nav-home" class="nav-btn">Home</button>
+                </li>
+                <li>
+                    <button id="nav-menu" class="nav-btn">Menu</button>
+                </li>
+                <li>
+                    <button id="nav-about" class="nav-btn">About us</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="content"></div>
+
+    <template id="home-template">
+
+        <section class="hero">
+            <h1>Welcome to Trattoria da Vinci</h1>
+            <p>Through the ages</p>
+        </section>
+    </template>
+
+    <template id="menu-template">
+        <main class="menu-page">
+            <section class="menu-intro">
+                <h2>Our Menu</h2>
+                <p>At Trattoria da Vinci, we pride ourselves on offering an unforgettable dining experience that embodies the essence of Italy. Nestled in the heart of Naples, our restaurant is a haven for aficionados of authentic Italian cuisine.</p>
+            </section>
+            <section class="menu-items">
+                <div class="menu-category">
+                    <h3>Antipasti</h3>
+                    <div class="menu-item">
+                        <h4>Bruschetta</h4>
+                        <p>Grilled bread rubbed with garlic and topped with diced tomatoes, fresh basil, and olive oil</p>
+                        <span class="price">€8</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Caprese Salad</h4>
+                        <p>Fresh mozzarella, tomatoes, and sweet basil seasoned with salt and olive oil</p>
+                        <span class="price">€10</span>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3>Primi Piatti</h3>
+                    <div class="menu-item">
+                        <h4>Spaghetti Carbonara</h4>
+                        <p>Spaghetti with a creamy sauce of eggs, cheese, pancetta, and black pepper</p>
+                        <span class="price">€14</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Risotto ai Funghi</h4>
+                        <p>Creamy risotto with wild mushrooms and Parmesan cheese</p>
+                        <span class="price">€16</span>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3>Secondi Piatti</h3>
+                    <div class="menu-item">
+                        <h4>Osso Buco alla Milanese</h4>
+                        <p>Braised veal shanks with vegetables, white wine and broth</p>
+                        <span class="price">€24</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Saltimbocca alla Romana</h4>
+                        <p>Veal cutlets topped with prosciutto and sage, sautéed in white wine</p>
+                        <span class="price">€22</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </template>
+
+    <template id="about-us-template">
+        <main class="about-us-page">
+            <section class="about-us-intro">
+                <h2>About Trattoria da Vinci</h2>
+                <p>Welcome to Trattoria da Vinci, where we bring the heart of Italy to your table. Our passion for authentic Italian cuisine and warm hospitality has been delighting guests since 1995.</p>
+            </section>
+            <section class="about-us-info">
+                <div class="info-block">
+                    <h3>Contact Us</h3>
+                    <p>Phone: +39 123 456 7890</p>
+                    <p>Email: info@trattoriadavinci.com</p>
+                </div>
+                <div class="info-block">
+                    <h3>Our Location</h3>
+                    <p>Via Roma 123, 80100 Naples, Italy</p>
+                </div>
+                <div class="info-block">
+                    <h3>Opening Hours</h3>
+                    <p> Monday - Friday: 12:00 - 22:00</p>
+                    <p>Saturday: 12:00 - 20:00</p>
+                </div>
+            </section>
+            <section class="about-us-story">
+                <h3>Our Story</h3>
+                <p>Founded by the Rossi family, Trattoria da Vinci has been serving authentic Neapolitan cuisine for over two decades. Our recipes have been passed down through generations, bringing the true flavors of Italy to every dish we serve.</p>
+            </section>
+        </main>
+    </template> 
+
+
+</body>
+
+</html>
